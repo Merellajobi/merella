@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Merella's Portfolio</title>
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            line-height: 1.6;
+            font-size: 16px;
+            color: #333;
+            background-color: #f4f4f9;
+        }
+
+        header {
+            background: #2c3e50;
+            color: #fff;
+            padding: 1.5rem 1rem;
+            text-align: center;
+        }
+
+        header h1 {
+            margin-bottom: 0.5rem;
+        }
+
+        header p {
+            font-size: 1rem;
+        }
+
+        nav {
+            margin: 1rem auto;
+            text-align: center;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #2c3e50;
+            margin: 0 10px;
+            padding: 5px 10px;
+            border: 1px solid #2c3e50;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+
+        nav a:hover {
+            background: #2c3e50;
+            color: #fff;
+        }
+
+        section {
+            padding: 2rem 1rem;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        section h2 {
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 1.5rem;
+        }
+
+        .about {
+            background: #fff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            padding: 1.5rem;
+            border-radius: 8px;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            gap: 10px;
+        }
+
+        .skills div {
+            background: #fff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            padding: 1rem;
+            border-radius: 8px;
+            flex: 1;
+            text-align: center;
+            max-width: 200px;
+        }
+
+        .projects {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .projects div {
+            background: #fff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            padding: 1.5rem;
+            border-radius: 8px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background: #2c3e50;
+            color: #fff;
+            margin-top: 2rem;
+        }
+
+        @media (max-width: 600px) {
+            .skills {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            nav a {
+                display: block;
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to Merella's Portfolio</h1>
+    <p>Engineering Student | Aspiring Web Developer | CUSAT</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+    <h2>About Me</h2>
+    <div class="about">
+        <p>Hi, I’m Merella! I’m an engineering student at CUSAT with a passion for coding and web development. I love exploring new technologies and participating in hackathons, like the Tinker Her Hack by TinkerHub. Beyond tech, I enjoy art, sports, and honing my communication skills.</p>
+    </div>
+</section>
+
+<section id="skills">
+    <h2>Skills</h2>
+    <div class="skills">
+        <div>Communication</div>
+        <div>Art</div>
+        <div>Sports</div>
+        <div>Web Development</div>
+        <div>Problem Solving</div>
+    </div>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+    <div class="projects">
+        <div>
+            <h3>Project 1: Tinker Her Hack</h3>
+            <p>A collaborative project developed during the Tinker Her Hack hackathon, showcasing teamwork and innovative problem-solving.</p>
+        </div>
+        <div>
+            <h3>Project 2: Personal Portfolio</h3>
+            <p>A modern, responsive portfolio website designed to highlight my skills and projects.</p>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <div class="about">
+        <p>Feel free to reach out to me at <strong>merella@example.com</strong>. Let’s connect and collaborate!</p>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2025 Merella. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
